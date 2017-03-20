@@ -1,0 +1,131 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+/* Default html settings */
+html{
+	color:#222;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+/* Selection Background */
+::-moz-selection {
+	background: #00BFFF;
+	text-shadow: none;
+}
+::selection {
+	background: #00BFFF;
+	text-shadow: none;
+}
+
+/* Tinner Rules */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/* Text Area */
+textarea {
+	resize: vertical;
+}
+
+/* Main Color */
+.main-color {
+	color: #009688;
+}
+
+/* Navbar */
+.navbar,
+.navbar-default {
+	background-color: transparent !important;
+	border: none !important;
+	padding: 1rem 1rem !important;
+}
+
+.navbar-nav > li > a:link,
+.navbar-nav > li > a:visited {
+	color: white !important;
+	text-transform: uppercase !important;
+	font-size: 1.2rem;
+	border-bottom: 1px solid transparent !important;
+	padding: 0;
+	margin: 15px;
+}
+
+.navbar-brand {
+	color: white !important;
+	font-size: 1.2rem;
+}
+
+.navbar-brand .glyphicon {
+	color: white !important;
+	margin-left: 1rem;
+	font-size: 2rem;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:active {
+	color: white !important;
+	text-transform: uppercase !important;
+	border-bottom: 1px solid white !important;
+	-webkit-transition:border-bottom 1s;
+	transition: border-bottom 1s;
+	padding: 0;
+	margin: 15px;
+}
+
+.navbar-scrolled {
+  background-color: #607D8B !important;
+  -webkit-transition:background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+/* Body Font */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2{
+	font-family: 'Oswald', sans-serifl
+}
+
+footer{
+	height: 14vh;
+	background-color: #263238;
+	color: #fff;
+}
+
+/* About */
+#triangles-1{
+	height: 100vh;
+}
+
+#about-content{
+	margin-top: 40vh;
+}
+
+#portfolio-content{
+	margin-top: 20vh;
+}
+
+#contact-content{
+	margin-top: 10vh;
+	margin-bottom: 2vh;
+}
+
+.contact{
+	background-color: #607D8B;
+	color: #fff;
+	padding-bottom: 6vh
+}
+
+#see-btn{
+	margin-top: 10vh;
+	color: #263238;
+	background-color: transparent;
+	border: 2px solid;
+}
