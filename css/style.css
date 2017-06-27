@@ -1,131 +1,137 @@
-/* Font Import */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+    /* Custom Stylesheet */
 
-/* Default html settings */
-html{
-	color:#222;
-	font-size: 1em;
-	line-height: 1.5;
-}
+    nav ul a, nav .brand-logo {
+      /* brand-logo color */
+      color: #607D8B;
+    }
 
-/* Selection Background */
-::-moz-selection {
-	background: #00BFFF;
-	text-shadow: none;
-}
-::selection {
-	background: #00BFFF;
-	text-shadow: none;
-}
+    p {
+      /* p line-height */
+      line-height: 2rem;
+    }
 
-/* Tinner Rules */
-hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid #ccc;
-	margin: 1em 0;
-	padding: 0;
-}
+    .button-collapse {
+      /* button-collapse color */
+      color: #26a69a;
+    }
 
-/* Text Area */
-textarea {
-	resize: vertical;
-}
+    .parallax-container {
+      /* parallax container things */
+      min-height: 380px;
+      line-height: 0;
+      height: auto;
+      color: rgba(255, 255, 255, .9);
+    }
 
-/* Main Color */
-.main-color {
-	color: #009688;
-}
+    .parallax-container .section {
+      /* parallax container section width */
+      width: 100%;
+    }
 
-/* Navbar */
-.navbar,
-.navbar-default {
-	background-color: transparent !important;
-	border: none !important;
-	padding: 1rem 1rem !important;
-}
+    #index-banner {
+      /* index-banner height*/
+      height: 95vh;
+    }
 
-.navbar-nav > li > a:link,
-.navbar-nav > li > a:visited {
-	color: white !important;
-	text-transform: uppercase !important;
-	font-size: 1.2rem;
-	border-bottom: 1px solid transparent !important;
-	padding: 0;
-	margin: 15px;
-}
+    @media only screen and (max-width: 992px) {
+      /* large screen things */
+      .parallax-container .section {
+        position: absolute;
+        top: 40%;
+      }
+      #index-banner .section {
+        top: 10%;
+      }
+    }
 
-.navbar-brand {
-	color: white !important;
-	font-size: 1.2rem;
-}
+    @media only screen and (max-width: 600px) {
+      /* small screen things */
+      #index-banner .section {
+        top: 0;
+      }
+    }
 
-.navbar-brand .glyphicon {
-	color: white !important;
-	margin-left: 1rem;
-	font-size: 2rem;
-}
+    .icon-block {
+      /* icons padding */
+      padding: 0 15px;
+    }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:active {
-	color: white !important;
-	text-transform: uppercase !important;
-	border-bottom: 1px solid white !important;
-	-webkit-transition:border-bottom 1s;
-	transition: border-bottom 1s;
-	padding: 0;
-	margin: 15px;
-}
+    .icon-block .material-icons {
+      /* icons size */
+      font-size: inherit;
+    }
 
-.navbar-scrolled {
-  background-color: #607D8B !important;
-  -webkit-transition:background-color 0.4s;
-  transition: background-color 0.4s;
-}
+    footer.page-footer {
+      /* page fotter margin */
+      margin: 0;
+    }
 
-/* Body Font */
-body {
-	font-family: 'Open Sans', sans-serif;
-}
+    #sidenav-overlay {
+      /* sidenav overlay z-index*/
+      /* this makes the darkened thing on the sidenav */
+      z-index: inherit;
+    }
+    /* */
+    /*** Forms color change ***/
+    /* */
 
-h1,h2{
-	font-family: 'Oswald', sans-serifl
-}
+    .input-field label {
+      /* Label color change */
+      color: #fff;
+    }
 
-footer{
-	height: 14vh;
-	background-color: #263238;
-	color: #fff;
-}
+    .input-field input[type=text], .input-field input[type=email], .input-field textarea.materialize-textarea {
+      /* label underline color */
+      border-bottom: 1px solid #fff;
+    }
 
-/* About */
-#triangles-1{
-	height: 100vh;
-}
+    .input-field input[type=text]:focus+label, .input-field input[type=email]:focus+label, .input-field textarea.materialize-textarea:focus+label {
+      /* label focus color */
+      color: #18FFFF;
+    }
 
-#about-content{
-	margin-top: 40vh;
-}
+    .input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field textarea.materialize-textarea:focus {
+      /* label underline focus color */
+      border-bottom: 1px solid #18FFFF;
+      box-shadow: 0 1px 0 0 #18FFFF;
+    }
 
-#portfolio-content{
-	margin-top: 20vh;
-}
+    .input-field input[type=text].valid, .input-field input[type=email].valid, .input-field textarea.materialize-textarea.valid {
+      /* valid color */
+      border-bottom: 1px solid #64FFDA;
+      box-shadow: 0 1px 0 0 #64FFDA;
+    }
 
-#contact-content{
-	margin-top: 10vh;
-	margin-bottom: 2vh;
-}
+    .input-field input[type="text"].invalid, .input-field input[type="email"].invalid, .input-field textarea.materialize-textarea.invalid {
+      /* invalid color */
+      border-bottom: 1px solid #FF4081;
+      box-shadow: 0 1px 0 0 #FF4081;
+    }
 
-.contact{
-	background-color: #607D8B;
-	color: #fff;
-	padding-bottom: 6vh
-}
+    .fa {
+      /* Font Awesome */
+      font-size: 1.2rem;
+      width: 2rem;
+      text-align: center;
+      border-radius: 50%;
+    }
 
-#see-btn{
-	margin-top: 10vh;
-	color: #263238;
-	background-color: transparent;
-	border: 2px solid;
-}
+    .fa:hover {
+      /* Font Awesome Hover */
+      opacity: 0.5;
+    }
+
+    .fa-facebook, .fa-twitter, .fa-linkedin, .fa-codepen, .fa-github, .fa-free-code-camp, .fa-chevron-down {
+      /* Font Awesome colors */
+      color: #ECEFF1;
+    }
+
+    .fa-heart {
+      /* heart color*/
+      color: #E91E63;
+    }
+
+    .paragraph-indent {
+      text-indent: 2em;
+      font-weight: 200;
+    }
