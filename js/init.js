@@ -27,7 +27,7 @@
         //get the name field value
         var email = $('#email').val();
         //get the comments
-        var comments = $('#comments').val();
+        var comments = $('#message').val();
 
         //pretend we don't need validation
 
@@ -45,8 +45,8 @@
             dataType:"json",
             success:function() {
                 console.log('success');
-                $('#formBlock').hide();
-                $('#thankyouBlock').show();
+                // show toast of success
+                Materialize.toast('Your message has been sent!', 4500)
             }
 
         });
