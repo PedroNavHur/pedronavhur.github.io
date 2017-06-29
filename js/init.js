@@ -18,14 +18,41 @@
       scrollOffset: 56
     });
 
-    $('#contactform').submit(function(e) {
+    // contactform
+    $('#someForm').on('submit', function(e) {
+        e.preventDefault();
+
+        //get the name field value
+        var name = $('#name').val();
+        //get the name field value
+        var email = $('#email').val();
+        //get the comments
+        var comments = $('#comments').val();
+
+        //pretend we don't need validation
+
+        //send to formspree
         $.ajax({
-          method: 'POST',
-          url: '//formspree.io/navhpedro@gmail.com',
-          data: $('#contact-form').serialize(),
-          datatype: 'json'
+            url:'https://formspree.io/navhpedro@gmail.com',
+            method:'POST',
+            data:{
+                name:name,
+                _replyto:email,
+                 email:email,
+                comments:comments,
+                _subject:'Mail from Portfolio',
+            },
+            dataType:"json",
+            success:function() {
+                console.log('success');
+                $('#formBlock').hide();
+                $('#thankyouBlock').show();
+            }
+
         });
+
     });
+
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
