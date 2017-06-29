@@ -47,6 +47,9 @@
                 console.log('success');
                 // show toast of success
                 Materialize.toast('Your message has been sent!', 4500)
+                $('#name').val('')
+                $('#email').val('')
+                $('#message').val('')
             }
 
         });
