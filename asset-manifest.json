@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.fac57d98.chunk.css",
-    "main.js": "./static/js/main.61d20b2f.chunk.js",
-    "main.js.map": "./static/js/main.61d20b2f.chunk.js.map",
+    "main.css": "./static/css/main.6259ffc6.chunk.css",
+    "main.js": "./static/js/main.862626b7.chunk.js",
+    "main.js.map": "./static/js/main.862626b7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.91286b14.js",
     "runtime-main.js.map": "./static/js/runtime-main.91286b14.js.map",
-    "static/js/2.5dcccef6.chunk.js": "./static/js/2.5dcccef6.chunk.js",
-    "static/js/2.5dcccef6.chunk.js.map": "./static/js/2.5dcccef6.chunk.js.map",
+    "static/js/2.fa986b58.chunk.js": "./static/js/2.fa986b58.chunk.js",
+    "static/js/2.fa986b58.chunk.js.map": "./static/js/2.fa986b58.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.ce3ae47b1945453ef083ccf533dc609d.js": "./precache-manifest.ce3ae47b1945453ef083ccf533dc609d.js",
+    "precache-manifest.f6b7a326cb29aa9fc3b60008d8e3798c.js": "./precache-manifest.f6b7a326cb29aa9fc3b60008d8e3798c.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.fac57d98.chunk.css.map": "./static/css/main.fac57d98.chunk.css.map",
+    "static/css/main.6259ffc6.chunk.css.map": "./static/css/main.6259ffc6.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "./static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.eaf02c2d.png",
@@ -35,6 +35,7 @@
     "static/media/harding_logo.png": "./static/media/harding_logo.b0a2fcb3.png",
     "static/media/harding_logo2.png~": "./static/media/harding_logo2.cf587f29.png~",
     "static/media/harding_logo2.png": "./static/media/harding_logo2.f5fded96.png",
+    "static/media/hive.webm": "./static/media/hive.d514c11b.webm",
     "static/media/ibm_logo.png": "./static/media/ibm_logo.d3fccbe1.png",
     "static/media/iiitk_logo.png": "./static/media/iiitk_logo.571a8584.png",
     "static/media/intel_logo.jpg": "./static/media/intel_logo.29152cf7.jpg",
@@ -44,10 +45,13 @@
     "static/media/manOnTable.svg": "./static/media/manOnTable.83ac24fb.svg",
     "static/media/muffito_logo.png": "./static/media/muffito_logo.069938a8.png",
     "static/media/nptel_logo.png": "./static/media/nptel_logo.95a12a2b.png",
+    "static/media/peaks.webm": "./static/media/peaks.fc2c1eba.webm",
+    "static/media/polygonia.webm": "./static/media/polygonia.55b3d101.webm",
     "static/media/portfolio.gif": "./static/media/portfolio.414dfbd9.gif",
     "static/media/programmer.svg": "./static/media/programmer.5faf790b.svg",
     "static/media/projects_image.svg": "./static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "./static/media/pwa.71408db7.png",
+    "static/media/ritcher.webm": "./static/media/ritcher.c69b783d.webm",
     "static/media/stanford_logo.png": "./static/media/stanford_logo.2c497738.png",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.3fa54242.svg",
@@ -57,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.91286b14.js",
-    "static/js/2.5dcccef6.chunk.js",
-    "static/css/main.fac57d98.chunk.css",
-    "static/js/main.61d20b2f.chunk.js"
+    "static/js/2.fa986b58.chunk.js",
+    "static/css/main.6259ffc6.chunk.css",
+    "static/js/main.862626b7.chunk.js"
   ]
 }
